@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Михаил Леонтьев](https://htmlacademy.ru/profile/leonms).
-* Наставник: [Ксения Торкова](https://htmlacademy.ru/profile/ksenya).
+* Студент: [Михаил Леонтьев](https://up.htmlacademy.ru/htmlcss/18/user/233232).
+* Наставник: [Ксения Торкова](https://up.htmlacademy.ru/htmlcss/18/user/23249).
 
 ---
 
