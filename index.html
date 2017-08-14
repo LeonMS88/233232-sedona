@@ -12,59 +12,60 @@
   			</a>
   			<ul class="site-navigation">
   				<li><a href="info.html">Информация</a></li>
-  				<li><a href="foto-video.html">Фото и Видео</a></li>
+  				<li><a href="photo-video.html">Фото и Видео</a></li>
   				<li><a href="map.html">Карта Штата</a></li>
   				<li><a href="hotels.html">Гостиницы</a></li>
   			</ul>
   		</nav>
   	</header>
   	<main class="container">
+  		<h1 class="main-title visually-hidden">Седона</h1>
   		<img src="http://intro.it" width="1200" height="300" alt="Седона">
   		<h3 class="description">Седона - Небольшой городок в Аризоне, заслуживющий большего!</h3>
   		<p class="reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-  		<section class="differences-1">
-  			<h3>Настоящий городок</h3>
-  			<p>- №1 -</p>
+  		<section class="differences">
+  			<h2>Настоящий городок</h2>
+  			<p>&#8211; №1 &#8211;</p>
   			<p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
   			<img src="http://city.it" width="800" height="200" alt="Город">
   		</section>
   		<section class="features">
   			<ul class="features-list">
   				<li class="features-item">
-  					<h3>Жилье</h3>
+  					<h2>Жилье</h2>
   					<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
   				</li>
   				<li class="features-item">
-  					<h3>Еда</h3>
+  					<h2>Еда</h2>
   					<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
   				</li>
   				<li class="features-item">
-  					<h3>Сувениры</h3>
+  					<h2>Сувениры</h2>
   					<p>Не только китайского, но и местного производства!</p>
   				</li>
   			</ul>
   		</section>
-  		<section class="differences-2">
-  			<img src="http://city.it" width="800" height="200" alt="Город">
-  			<h3>Там есть Мост Дьвола</h3>
-  			<p>- №2 -</p>
+  		<section class="differences">
+  			<h2>Там есть Мост Дьвола</h2>
+  			<p>&#8211; №2 &#8211;</p>
   			<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+  			<img src="http://city.it" width="800" height="200" alt="Город">
   		</section>
-  		<section class="differences-3">
+  		<section class="differences-main">
   			<ul class="differences-list">
-  				<li class="differences-iten">
-  					<h3>Небольшая площядь</h3>
-  					<p>- №3 -</p>
+  				<li class="differences-item">
+  					<h2>Небольшая площядь</h2>
+  					<p>&#8211; №3 &#8211;</p>
   					<p>Все достопримечательности находятся очень близко</p>
   				</li>
-  				<li class="differences-iten">
-  					<h3>Красивая дорога</h3>
-  					<p>- №4 -</p>
+  				<li class="differences-item">
+  					<h2>Красивая дорога</h2>
+  					<p>&#8211; №4 &#8211;</p>
   					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
   				</li>
-  				<li class="differences-iten">
-  					<h3>Мало туристов</h3>
-  					<p>- №5 -</p>
+  				<li class="differences-item">
+  					<h2>Мало туристов</h2>
+  					<p>&#8211; №5 &#8211;</p>
   					<p>Большинство едет в Гранд Каньон и толпится там</p>
   				</li>
   			</ul>
@@ -72,12 +73,34 @@
   		<section class="suggestions">
   			<h2>Заинтересовались?</h2>
   			<p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-  		</secion>
+  		</section>
+      <section class="appointment">
+        <h2>Поиск гостиницы в Седоне</h2>
+        <form class="appointment-form" action="http://sedona.it" method="post">
+          <p class="appointment-item">
+            Дата заезда:
+            <input type="text" name="date" value="" placeholder="24 Апреля 2016">
+          </p>
+          <p class="appointment-item">
+            Дата выезда:
+            <input type="text" name="date" value="" placeholder="4 Июля 2016">
+          </p>
+          <p class="appointment-item">
+            Взрослые:
+            <input type="number" name="num" value="" min="0" max="5" placeholder="2">
+          </p>
+          <p class="appointment-item">
+            Дети:
+            <input type="number" name="num" value="" min="0" max="5" placeholder="0">
+          </p>
+          <button class="button" type="submit">Найти</button>
+        </form>
+      </section>  
+      <section class="map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <img src="http://map.it" width="800" height="200" alt="Карта">
+      </section>
   	</main>
-  	<section class="modal modal-map">
-      <h2 class="visually-hidden">Как до нас добраться</h2>
-      <span class="modal-close">x</span>
-    </section>
   	<footer class="main-footer">
   		<p class="hashtag">#VISITSEDONA</p>
   		<div class="footer-social">
@@ -88,7 +111,7 @@
         </ul>
       </div>
       <p class="footer-copyright">
-        <a href="https://htmlacademy.ru">Vebsite by HTML Academy</a>
+        Vebsite by <a href="https://htmlacademy.ru">HTML Academy</a>
       </p>
   	</footer>
   </body>
