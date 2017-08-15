@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+  	<header class="main-header">
+  		<nav class="main-navigation">
+  			<a class="main-header-logo" href="index.html" >
+  				<img src="img/logo.svg" width="100" height="50" alt="Логотип Sedona">
+  			</a>
+  			<ul class="site-navigation">
+  				<li><a href="info.html">Информация</a></li>
+  				<li><a href="photo-video.html">Фото и Видео</a></li>
+  				<li><a href="map.html">Карта Штата</a></li>
+  				<li class="site-navigation-current"><a href="hotels.html">Гостиницы</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+  	<main class="container">
+  	  <h1 class="main-title visually-hidden">Гостиницы Седоны</h1>
+  	  <form class="filter" method="get" action="http://sedona.it">
+      	<fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+            	<li class="filter-option">
+            		<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pool" checked>
+            		Бассейн		
+            	</li>
+            	<li class="filter-option">
+            		<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking">
+            		Парковка	
+            	</li>
+            	<li class="filter-option">
+            		<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="WI-FI">
+            		WI-FI	
+            	</li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+            	<li class="filter-option">
+            		<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hotel" checked>
+            		Гостиница	
+            	</li>
+            	<li class="filter-option">
+            		<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="motel" checked>
+            		Мотель
+            	</li>
+            	<li class="filter-option">
+            		<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="apartment" checked>
+            		Апартаменты
+            	</li>
+            </ul>
+          </fieldset>    
+      </form>
+      <section class="filter-price">
+      <p>
+      	Стоимость в сутки (Р):
+      </p>
+      	<table border="1">
+      		<tr>
+            <td>от 0</td>
+            <td>до 3000</td>
+          </tr>	
+      	</table>
+      	<input type="range" id="dayscount" name="dayscount" min="1" max="3000" step="1">
+      	<p>
+      		<input type="button" value="Показать">
+      	</p>	
+      </section>
+  	</main>
+  	<footer class="main-footer">
+  		<p class="hashtag">#VISITSEDONA</p>
+  		<div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#">Твиттер</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Ютуб</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        Vebsite by <a href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
+  	</footer>
+  </body>
+</html>
