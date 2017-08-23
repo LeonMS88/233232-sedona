@@ -75,23 +75,25 @@
 				<p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			</section>
 			<section class="appointment">
-				<h2>Поиск гостиницы в Седоне</h2>
+				<button class="searhc" type="button">
+					<h2>Поиск гостиницы в Седоне</h2>
+				</button>
 				<form class="appointment-form" action="http://sedona.it" method="post">
 				<p class="appointment-item">
-					Дата заезда:
-					<input type="text" name="date" value="" placeholder="24 Апреля 2016">
+					<label for="appointment-arrival">Дата заезда:</label>
+					<input id="appointment-arrival" type="text" name="date" value="" placeholder="24 Апреля 2016">
 				</p>
 				<p class="appointment-item">
-					Дата выезда:
-					<input type="text" name="date" value="" placeholder="4 Июля 2016">
+					<label for="appointment-departure">Дата выезда:</label>
+					<input id="appointment-departure" type="text" name="date" value="" placeholder="4 Июля 2016">
 				</p>
 				<p class="appointment-item">
-					Взрослые:
-					<input type="number" name="num" value="" min="0" max="5" placeholder="2">
+					<label for="appointment-grownups">Взрослые:</label>
+					<input id="appointment-grownups" type="number" name="num" value="" min="0" max="5" placeholder="2">
 				</p>
 				<p class="appointment-item">
-					Дети:
-					<input type="number" name="num" value="" min="0" max="5" placeholder="0">
+					<label for="appointment-children">Дети:</label>
+					<input id="appointment-children" type="number" name="num" value="" min="0" max="5" placeholder="0">
 				</p>
 				<button class="button" type="submit">Найти</button>
 				</form>
