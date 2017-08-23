@@ -75,27 +75,35 @@
 				<p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			</section>
 			<section class="appointment">
-				<button class="searhc" type="button">
-					<h2>Поиск гостиницы в Седоне</h2>
-				</button>
+				<h2>
+					<button class="searhc" type="button">
+						Поиск гостиницы в Седоне
+					</button>
+				</h2>
 				<form class="appointment-form" action="http://sedona.it" method="post">
-				<p class="appointment-item">
-					<label for="appointment-arrival">Дата заезда:</label>
-					<input id="appointment-arrival" type="text" name="date" value="" placeholder="24 Апреля 2016">
-				</p>
-				<p class="appointment-item">
-					<label for="appointment-departure">Дата выезда:</label>
-					<input id="appointment-departure" type="text" name="date" value="" placeholder="4 Июля 2016">
-				</p>
-				<p class="appointment-item">
-					<label for="appointment-grownups">Взрослые:</label>
-					<input id="appointment-grownups" type="number" name="num" value="" min="0" max="5" placeholder="2">
-				</p>
-				<p class="appointment-item">
-					<label for="appointment-children">Дети:</label>
-					<input id="appointment-children" type="number" name="num" value="" min="0" max="5" placeholder="0">
-				</p>
-				<button class="button" type="submit">Найти</button>
+					<p class="appointment-item">
+						<label for="appointment-arrival">Дата заезда:</label>
+						<input id="appointment-arrival" type="text" name="date" value="" placeholder="24 Апреля 2016" >
+						<input class="calendar" type="button" name="date-arrival">
+					</p>
+					<p class="appointment-item">
+						<label for="appointment-departure">Дата выезда:</label>
+						<input id="appointment-departure" type="text" name="date" value="" placeholder="4 Июля 2016">
+						<input class="calendar" type="button" name="date-departure">
+					</p>
+					<p class="appointment-item">
+						<label for="appointment-grownups">Взрослые:</label>
+						<input id="appointment-grownups" type="number" name="num" value="" min="0" max="5" placeholder="2">
+						<input class="up" type="button" name="up">
+						<input class="down" type="button" name="down">
+					</p>
+					<p class="appointment-item">
+						<label for="appointment-children">Дети:</label>
+						<input id="appointment-children" type="number" name="num" value="" min="0" max="5" placeholder="0">
+						<input class="up" type="button" name="up">
+						<input class="down" type="button" name="down">
+					</p>
+					<button class="button" type="submit">Найти</button>
 				</form>
 			</section>  
 			<section class="map">
