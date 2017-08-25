@@ -1,0 +1,23 @@
+body {
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+	font-weight: normal;
+	font-family: 'PTSans', 'Times New Roman', sans-serif, serif;
+}
+
+h1 {
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+	font-family: 'PTSans', 'Times New Roman', sans-serif, serif;
+}
+
+h2 {
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+	font-family: 'PTSans', 'Times New Roman', sans-serif, serif;
+}
