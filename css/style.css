@@ -11,15 +11,13 @@ body {
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
-	font-family: 'PTSans', "Arial", "Tahoma", sans-serif;
 }
 
 .differences h2 {
 	font-size: 21px;
 	line-height: 21px;
-	color: #000000;
+	color: #ffffff;
 	font-weight: bold;
-	font-family: 'PTSans', "Arial", "Tahoma", sans-serif;
 }
 
 .differences-item h2 {
@@ -27,29 +25,18 @@ body {
 	line-height: 21px;
 	color: #000000;
 	font-weight: bold;
-	font-family: 'PTSans', "Arial", "Tahoma", sans-serif;
-}
-
-.future-item h2 {
-	font-size: 21px;
-	line-height: 21px;
-	color: #000000;
-	font-weight: bold;
-	font-family: 'PTSans', "Arial", "Tahoma", sans-serif;
 }
 
 .suggestions h2 {
-	font-size: 21px;
-	line-height: 26px;
+	font-size: 30px;
+	line-height: 36px;
 	color: #000000;
 	font-weight: bold;
-	font-family: 'PTSans', "Arial", "Tahoma", sans-serif;
 }
 
 .hotel h2 {
 	font-size: 21px;
 	line-height: 26px;
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
-	font-family: 'PTSans', "Arial", "Tahoma", sans-serif;
 }
