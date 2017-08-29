@@ -6,7 +6,7 @@ body {
 	line-height: 21px;
 	color: #333333;
 	font-weight: 400;
-	font-family: "PTSans", "Arial", "Tahoma", sans-serif;
+	font-family: "PT Sans", "Arial", "Tahoma", sans-serif;
 	text-transform: uppercase;
 	
 	background-color: #f2f2f2;
@@ -34,30 +34,74 @@ a {
 	color: #000000;
 } 
 
-.site-navigation a:hover {
+.site-navigation a:hover,
+.site-navigation a:focus {
 	color: #81b3d2;
 }
-
-.site-navigation a:focus {
-	color: #b2b2b2;
-}
-
+ 
 .site-navigation a:active {
-	color: #766357;
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .description {
+	text-align: center;
+}
+
+.description h2 {
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
+	text-align: center;
+}
+
+.reasons {
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+	text-align: center;
+}
+
+.differences {
+	background-color: #81b3d2;
 }
 
 .differences h2 {
+	font-weight: bold;
 	font-size: 21px;
 	line-height: 21px;
 	color: #ffffff;
+	text-align: center;
+}
+
+.differences p {
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.features-list {
+	list-style: none;
+	text-align: center;
+}
+
+.features h2 {
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
 	font-weight: bold;
+}
+
+.features p {
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+}
+
+.differences-list {
+	list-style: none;
+	text-align: center;
 }
 
 .differences-item h2 {
@@ -67,11 +111,27 @@ a {
 	font-weight: bold;
 }
 
+.differences-item p {
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+}
+
+.suggestions {
+	text-align: center;
+}
+
 .suggestions h2 {
 	font-size: 30px;
 	line-height: 36px;
 	color: #000000;
 	font-weight: bold;
+}
+
+.suggestions p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
 }
 
 .hotel h2 {
