@@ -61,10 +61,6 @@ a {
 }
 
 .description {
-	text-align: center;
-}
-
-.description h2 {
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
@@ -141,11 +137,12 @@ a {
   	border: none;
 }
 
-.appointment button:hover {
+.appointment .search:hover {
 	background-color: #604e43;
 }
 
-.appointment button:active {
+.appointment .search:active {
+	color: rgba(255, 255, 255, 0.3);
 	background-color: #503e33;
 }
 
@@ -160,9 +157,7 @@ a {
 }
 
 .appointment-item input {
-	line-height: 26px;
-	font-weight: bold;
-	color: #000000;
+	font: inherit;
 	background-color: #f2f2f2;
 }
 
@@ -172,6 +167,11 @@ a {
 
 .appointment-item input:focus {
 	background-color: #ffffff;
+}
+
+.appointment-item input::-moz-placeholder {
+	color: #000000;
+	opacity: 1;
 }
 
 .hotel h2 {
