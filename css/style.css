@@ -12,6 +12,23 @@ body {
 	background-color: #f2f2f2;
 }
 
+.container {
+	background-image: url("../img/header.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.visually-hidden { 
+position: absolute; 
+width: 1px; 
+height: 1px; 
+margin: -1px; 
+border: 0; 
+padding: 0; 
+clip: rect(0 0 0 0); 
+overflow: hidden; 
+}
+
 a {
 	text-decoration: none;
 }
@@ -56,9 +73,7 @@ a {
 }
 
 .reasons {
-	font-size: 14px;
 	line-height: 26px;
-	color: #333333;
 	text-align: center;
 }
 
@@ -75,8 +90,6 @@ a {
 }
 
 .differences p {
-	font-size: 14px;
-	line-height: 21px;
 	color: #ffffff;
 	text-align: center;
 }
@@ -88,15 +101,8 @@ a {
 
 .features h2 {
 	font-size: 21px;
-	line-height: 21px;
 	color: #000000;
 	font-weight: bold;
-}
-
-.features p {
-	font-size: 14px;
-	line-height: 21px;
-	color: #333333;
 }
 
 .differences-list {
@@ -111,12 +117,6 @@ a {
 	font-weight: bold;
 }
 
-.differences-item p {
-	font-size: 14px;
-	line-height: 21px;
-	color: #333333;
-}
-
 .suggestions {
 	text-align: center;
 }
@@ -129,9 +129,49 @@ a {
 }
 
 .suggestions p {
-	font-size: 14px;
 	line-height: 24px;
-	color: #333333;
+}
+
+.search {
+	font-size: 21px;
+	font-weight: 26px;
+	color: #ffffff;
+
+	background-color: #766357;
+  	border: none;
+}
+
+.appointment button:hover {
+	background-color: #604e43;
+}
+
+.appointment button:active {
+	background-color: #503e33;
+}
+
+.appointment {
+	background-color: #ffffff;
+}
+
+.appointment-item {
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.appointment-item input {
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #f2f2f2;
+}
+
+.appointment-item input:hover {
+	background-color: #ebebeb;
+}
+
+.appointment-item input:focus {
+	background-color: #ffffff;
 }
 
 .hotel h2 {
