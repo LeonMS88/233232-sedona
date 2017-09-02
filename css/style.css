@@ -195,16 +195,43 @@ a {
 	height: 25px;
 }
 
+.calendar:hover {
+	background-image: url("../img/calendar-hover.svg");
+}
+
+.calendar:active {
+	background-image: url("../img/calendar-active.svg");
+}
+
 .up {
-	background-image: url("../img/icon-up-dir.svg");
+	background-image: url("../img/plus.png");
 	width: 15px;
 	height: 15px;
+	background-repeat: no-repeat;
+}
+
+.up:hover {
+	background-image: url("../img/plus-hover.png");
+}
+
+.up:active {
+	background-image: url("../img/plus-active.png");
 }
 
 .down {
-	background-image: url("../img/icon-down-dir.svg");
+	background-image: url("../img/minus.png");
 	width: 15px;
 	height: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.down:hover {
+	background-image: url("../img/minus-hover.png");
+}
+
+.down:active {
+	background-image: url("../img/minus-active.png");
 }
 
 .button {
@@ -224,6 +251,37 @@ a {
 	color: rgba(136,182,209,0.3);
 	background-color: #5496bd;
 }
+
+.hashtag {
+	font-size: 21px;
+	font-weight: 26px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.footer-social ul {
+	list-style: none;
+	text-align: center;
+}
+
+.social-button {
+	background-color: #81b3d2;
+}
+
+.social-button:hover {
+	background-color: #669ec0;
+}
+
+.social-button:active {
+	fill: rgba(136,138,209,0.3);
+	background-color: #5496bd;
+}
+
+.footer-copyright {
+	line-height: 26px;
+	color: #000000;
+}
+
 
 .hotel h2 {
 	font-size: 21px;
