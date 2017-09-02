@@ -248,7 +248,7 @@ a {
 }
 
 .button:active {
-	color: rgba(136,182,209,0.3);
+	color: rgba(255,255,255,0.3);
 	background-color: #5496bd;
 }
 
@@ -273,8 +273,11 @@ a {
 }
 
 .social-button:active {
-	fill: rgba(136,138,209,0.3);
 	background-color: #5496bd;
+}
+
+.social-button:active svg{
+	fill-opacity: 0.3;
 }
 
 .footer-copyright {
@@ -282,6 +285,18 @@ a {
 	color: #000000;
 }
 
+.footer-copyright a {
+	background-image: url(../img/logo-htmlacademy.svg);
+	background-repeat: no-repeat;
+}
+
+.footer-copyright a:hover {
+	background-image: url(../img/logo-htmlacademy-hover.svg);
+}
+
+.footer-copyright a:active {
+	background-image: url(../img/logo-htmlacademy-active.svg);
+}
 
 .hotel h2 {
 	font-size: 21px;
