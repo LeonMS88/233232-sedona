@@ -12,12 +12,6 @@ body {
 	background-color: #f2f2f2;
 }
 
-.container {
-	background-image: url("../img/header.jpg");
-	background-position: top center;
-	background-repeat: no-repeat;
-}
-
 .visually-hidden { 
 position: absolute; 
 width: 1px; 
@@ -27,6 +21,14 @@ border: 0;
 padding: 0; 
 clip: rect(0 0 0 0); 
 overflow: hidden; 
+}
+
+/* index */
+
+.main-container {
+	background-image: url("../img/header.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
 }
 
 a {
@@ -288,6 +290,9 @@ a {
 .footer-copyright a {
 	background-image: url(../img/logo-htmlacademy.svg);
 	background-repeat: no-repeat;
+	width: 189px;
+	height: 37px;
+	display: inline-block;
 }
 
 .footer-copyright a:hover {
@@ -297,6 +302,45 @@ a {
 .footer-copyright a:active {
 	background-image: url(../img/logo-htmlacademy-active.svg);
 }
+
+/* catalog */
+
+.container {
+	background-image: url("../img/filter-background.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.site-navigation-current a {
+	color: #766357;
+}
+
+.filter fieldset {
+  	border: none;
+}
+
+.filter legend {
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.filter ul {
+  	list-style: none;
+}
+
+.filter-option label {
+	color: #ffffff;
+	background-image: url("../img/checkbox-off.svg");
+	background-repeat: no-repeat;
+}
+
+.filter-option label:active {
+	background-image: url("../img/checkbox-on.svg");
+}
+
+
+
 
 .hotel h2 {
 	font-size: 21px;
