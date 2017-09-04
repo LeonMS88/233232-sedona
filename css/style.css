@@ -335,9 +335,67 @@ a {
 	background-repeat: no-repeat;
 }
 
-.filter-option label:active {
+.filter-option label:hover {
+	background-image: url("../img/checkbox-off.svg");
+}
+
+.filter-option input:checked + label {
 	background-image: url("../img/checkbox-on.svg");
 }
+
+.filter-option input:checked + label:hover {
+	background-image: url("../img/checkbox-on.svg");
+}
+
+.filter-input:disabled + label {
+	background-image: url("../img/checkbox-off-disabled.svg");
+}
+
+.filter-price input {
+	font: inherit;
+
+  	background-color: transparent;
+  	border: 2px solid #ffffff;
+}
+
+.filter-price input:hover {
+	font: inherit;
+	color: #000000;
+
+  	background-color: #ffffff;
+  	border: 2px solid #ffffff;
+}
+
+.filter-price input::placeholder {
+	color: #ffffff;
+}
+
+.filter-price input::-moz-placeholder {
+	color: #ffffff;
+}
+
+.filter-price input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+
+.filter-price input::-ms-placeholder {
+	color: #ffffff;
+}
+
+.filter button {
+	font: inherit;
+	color: #ffffff;
+
+  	background-color: transparent;
+  	border: 2px solid #ffffff;
+}
+
+.filter button:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+
 
 
 
