@@ -62,19 +62,19 @@
 					<legend>
 						Стоимость в сутки (Р):
 					</legend>
-					<input type="text" name="lower-price" id="lower-price" placeholder="от 0">
+					<input type="text" name="lower-price" id="lower-price" value="от 0">
 					<label for="lower-price"></label>
-					<input type="text" name="high-price" id="high-price" placeholder="до 3000">
+					<input type="text" name="high-price" id="high-price" value="до 3000">
 					<label for="high-price"></label>
 					<input type="range" name="price" min="1" max="3000" step="1">
 				</fieldset>
 				<button type="submit">Показать</button>
 			</form> 
-			<div class="found">
-				<p>Найдено:3</p>
-				<p>Сортировка:</p>
+			<div class="main-found">
+				<p class="found">Найдено:3</p>
+				<span>Сортировка:</span>
 				<ul class="sorting">
-					<li>
+					<li class="sorting-current">
 						<a href="#">по цене</a>
 					</li>
 					<li>
@@ -86,10 +86,10 @@
 				</ul>
 				<ul class="collating">
 					<li>
-						<a class="collating-item" href="#">&#62;</a>
+						<a class="collating-item-up" href="#">&#62;</a>
 					</li>
 					<li>
-						<a class="collating-item" href="#">&#60;</a>
+						<a class="collating-item-down" href="#">&#60;</a>
 					</li>
 				</ul>
 			</div> 

@@ -348,11 +348,16 @@ a {
 }
 
 .filter-input:disabled + label {
-	background-image: url("../img/checkbox-off-disabled.svg");
+	background-image: url("../img/checkbox-off-disabled.svg");	
+}
+
+.filter-input:checked:disabled + label {
+	background-image: url("../img/checkbox-on-disabled.svg");
 }
 
 .filter-price input {
 	font: inherit;
+	color: #ffffff;
 
   	background-color: transparent;
   	border: 2px solid #ffffff;
@@ -364,22 +369,6 @@ a {
 
   	background-color: #ffffff;
   	border: 2px solid #ffffff;
-}
-
-.filter-price input::placeholder {
-	color: #ffffff;
-}
-
-.filter-price input::-moz-placeholder {
-	color: #ffffff;
-}
-
-.filter-price input::-webkit-input-placeholder {
-	color: #ffffff;
-}
-
-.filter-price input::-ms-placeholder {
-	color: #ffffff;
 }
 
 .filter button {
@@ -395,10 +384,67 @@ a {
 	background-color: #ffffff;
 }
 
+.found {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+}
 
+.main-found span {
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+}
 
+.main-found li {
+	list-style: none;
+}
 
+.sorting a {
+	font-size: 12px;
+	line-height: 18px;
+	color: #b2b2b2;
+}
 
+.sorting a:hover,
+.sorting a:focus {
+	color: #81b3d2; 
+}
+
+.sorting a:active {
+	color: #000000; 
+}
+
+.sorting-current a {
+	color: #81b3d2;
+}
+
+.collating-item-up {
+	background-image: url(../img/icon-up-dir.svg);
+	background-repeat: no-repeat;
+}
+
+.collating-item-up:hover {
+	background-image: url(../img/icon-up-dir-hover.svg);
+}
+
+.collating-item-up:active {
+	background-image: url(../img/icon-up-dir-active.svg);
+}
+
+.collating-item-down {
+	background-image: url(../img/icon-down-dir.svg);
+	background-repeat: no-repeat;
+}
+
+.collating-item-down:hover {
+	background-image: url(../img/icon-down-dir-hover.svg);
+}
+
+.collating-item-down:active {
+	background-image: url(../img/icon-down-dir-active.svg);
+}
 
 .hotel h2 {
 	font-size: 21px;
