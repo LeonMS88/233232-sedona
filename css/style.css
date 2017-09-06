@@ -456,25 +456,24 @@ a {
 	font-weight: bold;
 }
 
-.hotel a {
+.sorting-current{
 	color: #000000;
 }
 
-.hotel a:hover {
+.sorting-current:hover {
 	color: #81b3d2;
 }
 
-.hotel a:active {
+.sorting-current:active {
 	color: rgba(0, 0, 0, 0.3);
 }
 
 .detailet {
 	font: inherit;
-	font-weight: bold;
 	color: #ffffff;
+	font-weight: bold;
 
 	background-color: #81b3d2;
-	border: none;
 }
 
 .detailet:hover {
@@ -482,17 +481,21 @@ a {
 }
 
 .detailet:active {
-	color: rgba(255,255,255,0.3);
+	color: rgba(136,182,209,0.3);
 	background-color: #5496bd;
+}
+
+.star {
+	background-image: url("../img/star.svg");
+	background-repeat: repeat-x;
 }
 
 .book {
 	font: inherit;
-	font-weight: bold;
 	color: #ffffff;
+	font-weight: bold;
 
-	background-color: #766357;;
-	border: none;
+	background-color: #766357;
 }
 
 .book:hover {
@@ -500,15 +503,9 @@ a {
 }
 
 .book:active {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(133,120,113,0.3);
 	background-color: #503e33;
 }
-
-.stars {
-	background-image: url("../img/star.svg");
-	background-repeat: repeat-x;
-}
-
 
 .rating {
 	color: #666666;
