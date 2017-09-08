@@ -481,7 +481,7 @@ a {
 }
 
 .detailet:active {
-	color: rgba(136,182,209,0.3);
+	color: rgba(255,255,255,0.3);
 	background-color: #5496bd;
 }
 
@@ -503,7 +503,7 @@ a {
 }
 
 .book:active {
-	color: rgba(133,120,113,0.3);
+	color: rgba(255,255,255,0.3);
 	background-color: #503e33;
 }
 
@@ -511,3 +511,121 @@ a {
 	color: #666666;
 	background-color: #f2f2f2;
 }
+
+/*сетки*/
+
+/* index */
+
+.wrapper { 
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-container { 
+	background-position: 0 -70px;
+}
+
+.main-navigation {
+	display: flex;
+}
+
+.main-header-logo {
+	position: absolute;
+	display: none;
+}
+
+.site-navigation {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding-left: 0;
+}
+
+.site-navigation li {
+	width: 239px;
+	text-align: center;
+}
+
+.site-navigation li:nth-child(2) {
+	margin-right: 239px;
+}
+
+.description {
+ 	padding-top: 569px;
+}
+
+.differences {
+ 	display: flex;
+}
+
+.differences div {
+ 	width: 400px;
+}
+
+.features-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	padding-left: 0;
+}
+
+.features-list li {
+ 	width: 400px;
+}
+
+.differences-reverse div {
+	order: 1;
+}
+
+.differences-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	padding-left: 0;
+}
+
+.differences-list li {
+	width: 400px;
+}
+
+.appointment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 0;
+	padding: 0;
+}
+
+.main-footer {
+	padding-left: 132px;
+}
+
+.main-footer .footer-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 0;
+	padding: 0;
+}
+
+.hashtag {
+	width: 135px;
+  	margin: 0;
+  	margin-right: 255px;
+}
+
+.footer-social {
+	width: 150px;
+  	margin-left: 70px;
+}
+
+.footer-copyright {
+  	width: 200px;
+  	margin: 0;
+  	margin-left: auto;
+}
+
+/* catalog */
