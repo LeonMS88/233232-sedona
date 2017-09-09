@@ -305,7 +305,7 @@ a {
 
 /* catalog */
 
-.container {
+.filter {
 	background-image: url("../img/filter-background.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -632,7 +632,23 @@ a {
 
 .filter {
 	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 0;
+	padding: 0;
 	height: 217px;
+}
+
+.filter-item {
+	width: 140px;
+	height: 155px;
+	padding-left: 73px; 
+}
+
+.filter-wrapper {
+	width: 318px;
+	height: 153px;
+	padding-left: 345px;
 }
 
 .filter-price {
@@ -648,14 +664,46 @@ a {
 .main-found {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+}
+
+.found {
+	padding-left: 73px;
+	padding-right: 50px;
 }
 
 .sorting {
 	display: flex;
 	flex-direction: row;
+	padding-left: 50px;
+}
+
+.sorting li {
+	padding-right: 33px;
+}
+
+.collating {
+	display: flex;
+	flex-direction: row;
+	padding-left: 505px;
 }
 
 .hotel {
 	display: flex;
+	align-items: center;
 }
 
+.hotel-item {
+	padding-left: 73px;
+}
+
+.hotel-wrapper {
+	width: 258px;
+	height: 90px;
+	padding-left: 30px;
+	margin-bottom: 32px;
+}
+
+.stars {
+	padding-left: 520px;
+}

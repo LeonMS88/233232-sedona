@@ -24,7 +24,7 @@
 		<main class="container wrapper">
 			<h1 class="main-title visually-hidden">Гостиницы Седоны</h1>
 			<form class="filter" method="get" action="http://sedona.it">
-				<fieldset>
+				<fieldset class="filter-item">
 					<legend>Инфраструктура:</legend>
 					<ul>
 						<li class="filter-option">
@@ -41,8 +41,8 @@
 						</li>
 					</ul>
 				</fieldset>
-				<fieldset>
-				<legend>Тип жилья:</legend>
+				<fieldset class="filter-item">
+					<legend>Тип жилья:</legend>
 					<ul>
 						<li class="filter-option">
 							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hotel" id="filter-hotel" checked>
@@ -57,18 +57,20 @@
 							<label for="filter-apartment" tabindex="0">Апартаменты</label>
 						</li>
 					</ul>
-				</fieldset>    
-				<fieldset class="filter-price">
-					<legend>
+				</fieldset> 
+				<div class="filter-wrapper">
+					<fieldset class="filter-price">
+						<legend>
 						Стоимость в сутки (Р):
-					</legend>
-					<input type="text" name="lower-price" id="lower-price" value="от 0">
-					<label for="lower-price"></label>
-					<input type="text" name="high-price" id="high-price" value="до 3000">
-					<label for="high-price"></label>
-					<input type="range" name="price" min="1" max="3000" step="1">
-				</fieldset>
-				<button class="filter-button" type="submit">Показать</button>
+						</legend>
+						<input type="text" name="lower-price" id="lower-price" value="от 0">
+						<label for="lower-price"></label>
+						<input type="text" name="high-price" id="high-price" value="до 3000">
+						<label for="high-price"></label>
+						<input type="range" name="price" min="1" max="3000" step="1">
+					</fieldset>
+					<button class="filter-button" type="submit">Показать</button>
+				</div>   
 			</form> 
 			<div class="main-found">
 				<p class="found">Найдено:3</p>
@@ -94,14 +96,16 @@
 				</ul>
 			</div> 
 			<article class="hotel">
-				<img src="img/hotel-1.jpg" width="135" height="90" alt="Отель Амара">
-				<h2>
-					<a href="#">Amara resort &#38; spa</a>
-				</h2>
-				<span class="apartments">Гостиница</span>
-				<span class="price">От 3500 р.</span>
-				<a class="detailet" href="#">Подробнее</a>
-				<a class="book" href="#">Забронировать</a>
+				<img class="hotel-item" src="img/hotel-1.jpg" width="135" height="90" alt="Отель Амара">
+				<div class="hotel-wrapper">
+					<h2>
+						<a href="#">Amara resort &#38; spa</a>
+					</h2>
+					<span class="apartments">Гостиница</span>
+					<span class="price">От 3500 р.</span>
+					<a class="detailet" href="#">Подробнее</a>
+					<a class="book" href="#">Забронировать</a>
+				</div>
 				<div class="stars">
 					<span class="star"></span>
 					<span class="star"></span>
@@ -111,14 +115,16 @@
 				</div>
 			</article>
 			<article class="hotel">
-				<img src="img/hotel-2.jpg" width="135" height="90" alt="Мотель Пустынный Перепел">
-				<h2>
-					<a href="#">Desert quail inn</a> 
-				</h2>
-				<span class="apartments">Мотель</span>
-				<span class="price">От 2000 р.</span>
-				<a class="detailet" href="#">Подробнее</a>
-				<a class="book" href="#">Забронировать</a>
+				<img class="hotel-item" src="img/hotel-2.jpg" width="135" height="90" alt="Мотель Пустынный Перепел">
+				<div class="hotel-wrapper">
+					<h2>
+						<a href="#">Desert quail inn</a> 
+					</h2>
+					<span class="apartments">Мотель</span>
+					<span class="price">От 2000 р.</span>
+					<a class="detailet" href="#">Подробнее</a>
+					<a class="book" href="#">Забронировать</a>
+				</div>
 				<div class="stars">
 					<span class="star"></span>
 					<span class="star"></span>
@@ -127,14 +133,16 @@
 				</div>
 			</article>
 			<article class="hotel">
-				<img src="img/hotel-3.jpg" width="135" height="90" alt="Апартаменты Поко Диабло">
-				<h2>
-					<a href="#">Villas at poco diablo</a>
-				</h2>
-				<span class="apartments">Апартаменты</span>
-				<span class="price">От 4000 р.</span>
-				<a class="detailet" href="#">Подробнее</a>
-				<a class="book" href="#">Забронировать</a>
+				<img class="hotel-item" src="img/hotel-3.jpg" width="135" height="90" alt="Апартаменты Поко Диабло">
+				<div class="hotel-wrapper">
+					<h2>
+						<a href="#">Villas at poco diablo</a>
+					</h2>
+					<span class="apartments">Апартаменты</span>
+					<span class="price">От 4000 р.</span>
+					<a class="detailet" href="#">Подробнее</a>
+					<a class="book" href="#">Забронировать</a>
+				</div>
 				<div class="stars">
 					<span class="star"></span>
 					<span class="star"></span>
