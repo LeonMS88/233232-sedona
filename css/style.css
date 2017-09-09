@@ -309,6 +309,7 @@ a {
 	background-image: url("../img/filter-background.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
+	height: 217px;
 }
 
 .site-navigation-current a {
@@ -619,7 +620,6 @@ a {
 
 .footer-social {
 	width: 150px;
-  	margin-left: 70px;
 }
 
 .footer-copyright {
@@ -629,3 +629,33 @@ a {
 }
 
 /* catalog */
+
+.filter {
+	display: flex;
+	height: 217px;
+}
+
+.filter-price {
+	width: 318px;
+	height: 96px;
+}
+
+.filter-button {
+	width: 137px;
+	height: 36px;
+}
+
+.main-found {
+	display: flex;
+	flex-direction: row;
+}
+
+.sorting {
+	display: flex;
+	flex-direction: row;
+}
+
+.hotel {
+	display: flex;
+}
+
