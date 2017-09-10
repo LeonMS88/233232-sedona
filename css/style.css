@@ -132,8 +132,9 @@ a {
 
 .search {
 	font-size: 21px;
-	font-weight: 26px;
+	line-height: 26px;
 	color: #ffffff;
+	text-transform: uppercase;
 
 	background-color: #766357;
   	border: none;
@@ -545,53 +546,40 @@ a {
 
 .site-navigation li:nth-child(1) {
 	width: 39px;
-	height: 12px;
 	padding-left: 72px;
 	padding-right: 74px;
 	padding-top: 14px;
-	padding-bottom: 15px; 
 }
 
 .site-navigation li:nth-child(2) {
 	width: 98px;
-	height: 12px;
 	padding-left: 73px;
 	padding-right: 68px;
-	padding-top: 14px;
-	padding-bottom: 15px; 
+	padding-top: 14px; 
 	margin-left: 55px;
 }
 
 .site-navigation li:nth-child(3) {
 	width: 90px;
-	height: 10px;
 	padding-left: 77px;
 	padding-right: 73px;
-	padding-top: 14px;
-	padding-bottom: 15px; 
+	padding-top: 14px; 
 	margin-left: 244px;
 }
 
 .site-navigation li:nth-child(4) {
 	width: 79px;
-	height: 12px;
 	padding-left: 87px;
 	padding-right: 72px;
 	padding-top: 14px;
-	padding-bottom: 15px; 
 }
-
 .description {
-	width: 440;
-	height: 48;
 	padding-left: 380px;
 	padding-right: 380px;
- 	padding-top: 565px;
+ 	padding-top: 566px;
 }
 
 .reasons {
-	width: 489;
-	height: 13px;
 	padding-left: 355px;
 	padding-right: 355px;
 	padding-top: 10px;
@@ -599,10 +587,16 @@ a {
 
 .differences {
  	display: flex;
+ 	margin-top: 52px;
 }
 
 .differences div {
  	width: 400px;
+ 	padding-top: 30px;
+}
+
+.differences p {
+	padding-top: 6px;
 }
 
 .features-list {
@@ -615,6 +609,19 @@ a {
 
 .features-list li {
  	width: 400px;
+ 	padding-top: 58px;
+}
+
+.features-list h2 {
+	padding-top: 6px;
+}
+
+.features-list p {
+	padding-top: 6px;
+}
+
+.differences-reverse {
+	margin-top: 64px;
 }
 
 .differences-reverse div {
@@ -631,6 +638,15 @@ a {
 
 .differences-list li {
 	width: 400px;
+	margin-top: 31px;
+}
+
+.differences-item p {
+	padding-top: 6px;
+}
+
+.suggestions {
+	margin-top: 96px;
 }
 
 .appointment {
@@ -639,6 +655,59 @@ a {
 	align-items: center;
 	margin-left: 0;
 	padding: 0;
+}
+
+.search {
+	width: 568px;
+	height: 86px;
+	margin-top: 34px; 
+}
+
+.appointment-form {
+	display: flex;
+	flex-direction: column;
+	width: 568px;
+	height: 395px;
+}
+
+.appointment-item-one {
+	padding-top: 42px;
+	padding-left: 55px;
+}
+
+.calendar {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 175px;
+}
+
+.appointment-item-two {
+	padding-top: 8px;
+	padding-left: 54px;
+}
+
+.appointment-item-three {
+	padding-left: 55px;
+	padding-top: 8px;
+}
+
+.appointment-item-three input {
+	margin-left: 79px;
+}
+
+.up {
+	width: 32px;
+	height: 32px;
+}
+
+.down {
+	width: 32px;
+	height: 32px;
+}
+
+.button {
+	width: 458;
+	height: 58;
 }
 
 .main-footer .footer-container {
