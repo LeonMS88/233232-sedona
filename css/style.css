@@ -600,10 +600,6 @@ a {
 	padding: 0;
 }
 
-.main-footer {
-	padding-left: 132px;
-}
-
 .main-footer .footer-container {
 	display: flex;
 	flex-direction: row;
@@ -615,6 +611,7 @@ a {
 .hashtag {
 	width: 135px;
   	margin: 0;
+  	margin-left: 132px;
   	margin-right: 255px;
 }
 
