@@ -524,7 +524,7 @@ a {
 }
 
 .main-container { 
-	background-position: 0 -70px;
+	background-position: 0 -58px;
 }
 
 .main-navigation {
@@ -533,7 +533,7 @@ a {
 
 .main-header-logo {
 	position: absolute;
-	display: none;
+	margin-left: 531px;
 }
 
 .site-navigation {
@@ -543,17 +543,58 @@ a {
 	padding-left: 0;
 }
 
-.site-navigation li {
-	width: 239px;
-	text-align: center;
+.site-navigation li:nth-child(1) {
+	width: 39px;
+	height: 12px;
+	padding-left: 72px;
+	padding-right: 74px;
+	padding-top: 14px;
+	padding-bottom: 15px; 
 }
 
 .site-navigation li:nth-child(2) {
-	margin-right: 239px;
+	width: 98px;
+	height: 12px;
+	padding-left: 73px;
+	padding-right: 68px;
+	padding-top: 14px;
+	padding-bottom: 15px; 
+	margin-left: 55px;
+}
+
+.site-navigation li:nth-child(3) {
+	width: 90px;
+	height: 10px;
+	padding-left: 77px;
+	padding-right: 73px;
+	padding-top: 14px;
+	padding-bottom: 15px; 
+	margin-left: 244px;
+}
+
+.site-navigation li:nth-child(4) {
+	width: 79px;
+	height: 12px;
+	padding-left: 87px;
+	padding-right: 72px;
+	padding-top: 14px;
+	padding-bottom: 15px; 
 }
 
 .description {
- 	padding-top: 569px;
+	width: 440;
+	height: 48;
+	padding-left: 380px;
+	padding-right: 380px;
+ 	padding-top: 565px;
+}
+
+.reasons {
+	width: 489;
+	height: 13px;
+	padding-left: 355px;
+	padding-right: 355px;
+	padding-top: 10px;
 }
 
 .differences {
