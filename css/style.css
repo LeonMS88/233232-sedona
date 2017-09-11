@@ -194,6 +194,7 @@ a {
 
 .calendar {
 	background-image: url("../img/calendar.svg");
+	background-repeat: no-repeat;
 	width: 25px;
 	height: 25px;
 }
@@ -239,8 +240,9 @@ a {
 
 .button {
 	font-size: 21px;
-	font-weight: 26px;
+	font-weight: bold;
 	color: #ffffff;
+	font-family: inherit;
 
 	background-color: #81b3d2;
   	border: none;
@@ -658,6 +660,7 @@ a {
 }
 
 .search {
+	font-family: inherit;
 	width: 568px;
 	height: 86px;
 	margin-top: 34px; 
@@ -670,44 +673,64 @@ a {
 	height: 395px;
 }
 
-.appointment-item-one {
-	padding-top: 42px;
-	padding-left: 55px;
+.appointment-item {
+	display: flex;
+	align-items: center;
+}
+
+.appointment-item label {
+	margin-left: 57px;
+	margin-top: 46px;
+}
+
+.appointment-item input {
+	width: 330px;
+	margin-left: 21px;
+	margin-top: 43px;
+	padding-left: 12px;
+	border: none;
 }
 
 .calendar {
 	position: absolute;
-	margin-top: 5px;
-	margin-left: 175px;
+	margin-top: 25px;
+	margin-left: 483px;
+	border: none;
 }
 
-.appointment-item-two {
-	padding-top: 8px;
-	padding-left: 54px;
+.form-wrapper .appointment-item label {
+	margin-left: 55px;
+	margin-bottom: 147px;
 }
 
-.appointment-item-three {
-	padding-left: 55px;
-	padding-top: 8px;
-}
-
-.appointment-item-three input {
-	margin-left: 79px;
+.form-wrapper .appointment-item input {
+	width: 38px;
+	margin-left: 80px;
+	margin-bottom: 145px;
 }
 
 .up {
 	width: 32px;
 	height: 32px;
+	margin-bottom: 100px;
 }
 
 .down {
 	width: 32px;
 	height: 32px;
+	margin-bottom: 100px;
+	order: -1;
+}
+
+.form-wrapper {
+	display: flex;
 }
 
 .button {
-	width: 458;
-	height: 58;
+	width: 458px;
+	height: 58px;
+	margin-left: 55px;
+	margin-bottom: 50px;
 }
 
 .main-footer .footer-container {
