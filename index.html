@@ -81,7 +81,7 @@
 			</section>
 			<section class="suggestions">
 				<h2>Заинтересовались?</h2>
-				<p>Укажите предпологаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+				<p>Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			</section>
 			<section class="appointment">
 				<button class="search" type="button">
@@ -89,14 +89,14 @@
 				</button>
 				<form class="appointment-form" action="http://sedona.it" method="post">
 					<p class="appointment-item">
-						<label for="appointment-arrival">Дата заезда:</label>
+						<label for="appointment-arrival" class="appointment-arrival">Дата заезда:</label>
 						<input id="appointment-arrival" type="text" name="date" value="" placeholder="24 Апреля 2017" >
 						<button class="calendar" type="button" name="date-arrival">
 							<span class="visually-hidden">Дата заезда</span>
 						</button>
 					</p>
 					<p class="appointment-item">
-						<label for="appointment-departure">Дата выезда:</label>
+						<label for="appointment-departure" class="appointment-departure">Дата выезда:</label>
 						<input id="appointment-departure" type="text" name="date" value="" placeholder="4 Июля 2017">
 						<button class="calendar" type="button" name="date-departure">
 							<span class="visually-hidden">Дата выезда</span>
@@ -104,23 +104,23 @@
 					</p>
 					<div class="form-wrapper">
 						<p class="appointment-item">
-							<label for="appointment-grownups">Взрослые:</label>
-							<input id="appointment-grownups" type="number" name="num" value="" min="0" max="5" placeholder="2">
-							<button class="up" type="button" name="up">
-								<span class="visually-hidden">Увеличить колличество взрослых</span>
-							</button>
+							<label for="appointment-grownups" class="appointment-grownups">Взрослые:</label>
+							<input id="appointment-grownups" type="text" name="num" value="" min="0" max="5" placeholder="2">
 							<button class="down" type="button" name="down">
 								<span class="visually-hidden">Уменьшить колличество взрослых</span>
 							</button>
+							<button class="up" type="button" name="up">
+								<span class="visually-hidden">Увеличить колличество взрослых</span>
+							</button>
 						</p>
 						<p class="appointment-item">
-							<label for="appointment-children">Дети:</label>
-							<input id="appointment-children" type="number" name="num" value="" min="0" max="5" placeholder="0">
-							<button class="up" type="button" name="up">
-								<span class="visually-hidden">Увеличить колличество детей</span>
-							</button>
+							<label for="appointment-children" class="appointment-children">Дети:</label>
+							<input id="appointment-children" type="text" name="num" value="" min="0" max="5" placeholder="0">
 							<button class="down" type="button" name="down">
 								<span class="visually-hidden">Уменьшить колличество детей</span>
+							</button>
+							<button class="up" type="button" name="up">
+								<span class="visually-hidden">Увеличить колличество детей</span>
 							</button>
 						</p>
 					</div>

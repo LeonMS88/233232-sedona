@@ -665,12 +665,33 @@ a {
 	height: 86px;
 	margin-top: 34px; 
 }
+.appointment-arrival {
+	margin-right: 24px;
+}
+
+.appointment-departure {
+	margin-right: 21px;
+}
+
+.appointment-grownups {
+	padding-right: 78px;
+	margin-top: 18px;
+}
+
+.appointment-children {
+	margin-top: 20px;
+	margin-left: 57px;
+	margin-right: 65px;
+}
 
 .appointment-form {
 	display: flex;
 	flex-direction: column;
-	width: 568px;
+	width: 458px;
 	height: 395px;
+	padding-left: 55px; 
+	padding-right: 55px; 
+	padding-top: 20px; 
 }
 
 .appointment-item {
@@ -678,16 +699,9 @@ a {
 	align-items: center;
 }
 
-.appointment-item label {
-	margin-left: 57px;
-	margin-top: 46px;
-}
-
 .appointment-item input {
-	width: 330px;
-	margin-left: 21px;
-	margin-top: 43px;
-	padding-left: 12px;
+	width: 345px;
+	min-height: 38px;
 	border: none;
 }
 
@@ -698,39 +712,45 @@ a {
 	border: none;
 }
 
-.form-wrapper .appointment-item label {
-	margin-left: 55px;
-	margin-bottom: 147px;
-}
-
-.form-wrapper .appointment-item input {
-	width: 38px;
-	margin-left: 80px;
-	margin-bottom: 145px;
-}
-
 .up {
 	width: 32px;
 	height: 32px;
-	margin-bottom: 100px;
+	background-color: transparent;
+	background-position: center; 
+	border: none;
+	margin-top: 17px;
+	margin-left: 44px;
 }
 
 .down {
 	width: 32px;
 	height: 32px;
-	margin-bottom: 100px;
-	order: -1;
+	background-color: transparent; 
+	background-position: center;
+	border: none;
+	margin-left: -73px;
+	margin-top: 17px;
 }
 
 .form-wrapper {
 	display: flex;
 }
 
+.form-wrapper input { 
+	padding-left: 0; 
+	text-align: center;
+	width: 38px;
+	min-height: 38px;
+	margin-top: 18px;
+}
+
 .button {
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
 	width: 458px;
-	height: 58px;
-	margin-left: 55px;
-	margin-bottom: 50px;
+	min-height: 58px;
+	margin-top: 39px;
 }
 
 .main-footer .footer-container {
