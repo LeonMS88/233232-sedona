@@ -175,21 +175,25 @@ a {
 .appointment-item input::-moz-placeholder {
 	color: #000000;
 	opacity: 1;
+	text-transform: uppercase;
 }
 
 .appointment-item input::-webkit-input-placeholder {
 	color: #000000;
 	opacity: 1;
+	text-transform: uppercase;
 }
 
 .appointment-item input::-ms-placeholder {
 	color: #000000;
 	opacity: 1;
+	text-transform: uppercase;
 }
 
 .appointment-item input::placeholder {
 	color: #000000;
 	opacity: 1;
+	text-transform: uppercase;
 }
 
 .calendar {
@@ -675,12 +679,10 @@ a {
 
 .appointment-grownups {
 	padding-right: 78px;
-	margin-top: 18px;
 }
 
 .appointment-children {
-	margin-top: 20px;
-	margin-left: 57px;
+	margin-left: 55px;
 	margin-right: 65px;
 }
 
@@ -688,48 +690,57 @@ a {
 	display: flex;
 	flex-direction: column;
 	width: 458px;
-	height: 395px;
+	height: 372px;
 	padding-left: 55px; 
 	padding-right: 55px; 
-	padding-top: 20px; 
+	padding-top: 23px; 
+	z-index: 1;
+	background-color: #ffffff;
 }
 
 .appointment-item {
 	display: flex;
 	align-items: center;
+	margin-bottom: 0; 
+	margin-top: 29px; 
+	position: relative; 
 }
 
 .appointment-item input {
-	width: 345px;
+	width: 333px;
 	min-height: 38px;
+	padding-left: 12px;
 	border: none;
 }
 
 .calendar {
 	position: absolute;
-	margin-top: 25px;
-	margin-left: 483px;
+	left: 427px;
+	top: 9px; 
+	background-color: transparent;
 	border: none;
+}
+
+.form-wrapper .appointment-item { 
+	margin-top: 27px; 
 }
 
 .up {
-	width: 32px;
-	height: 32px;
-	background-color: transparent;
+	width: 38px;
+	height: 38px;
+	background-color: #f2f2f2;
 	background-position: center; 
 	border: none;
-	margin-top: 17px;
-	margin-left: 44px;
+	margin-left: 36px;
 }
 
 .down {
-	width: 32px;
-	height: 32px;
-	background-color: transparent; 
+	width: 38px;
+	height: 38px;
+	background-color: #f2f2f2; 
 	background-position: center;
 	border: none;
-	margin-left: -73px;
-	margin-top: 17px;
+	margin-left: -75px;
 }
 
 .form-wrapper {
@@ -740,8 +751,7 @@ a {
 	padding-left: 0; 
 	text-align: center;
 	width: 38px;
-	min-height: 38px;
-	margin-top: 18px;
+	min-height: 36px;
 }
 
 .button {
@@ -750,15 +760,24 @@ a {
 	margin-right: auto;
 	width: 458px;
 	min-height: 58px;
-	margin-top: 39px;
+	margin-top: 55px;
+}
+
+.map {
+	position: relative;
+	bottom: 396px;
 }
 
 .main-footer .footer-container {
+	min-height: 122px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-left: 0;
 	padding: 0;
+	position: relative;
+    bottom: 524px;
+    background-color: rgba(255,255,255, 0.9);
 }
 
 .hashtag {
@@ -768,14 +787,31 @@ a {
   	margin-right: 255px;
 }
 
-.footer-social {
-	width: 150px;
+.footer-social ul {
+  	display: flex;
+  	width: 151px;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  	margin: 0 auto;
+  	padding: 0;
+}
+
+.social-button {
+	width: 46px;
+  	height: 47px;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
 }
 
 .footer-copyright {
-  	width: 200px;
-  	margin: 0;
-  	margin-left: auto;
+	display: flex;
+	margin-left: 237px;
+	margin-top: 16px;
+}
+
+.footer-copyright-item {
+
 }
 
 /* catalog */
