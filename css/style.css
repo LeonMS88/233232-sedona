@@ -657,6 +657,7 @@ a {
 
 .appointment {
 	display: flex;
+	position: relative;
 	flex-direction: column;
 	align-items: center;
 	margin-left: 0;
@@ -688,9 +689,11 @@ a {
 
 .appointment-form {
 	display: flex;
+	position: absolute;
 	flex-direction: column;
 	width: 458px;
 	height: 372px;
+	top: 121px;
 	padding-left: 55px; 
 	padding-right: 55px; 
 	padding-top: 23px; 
@@ -763,9 +766,10 @@ a {
 	margin-top: 55px;
 }
 
-.map {
+.main-footer {
 	position: relative;
-	bottom: 396px;
+	z-index: 1;
+	margin-top: -128px;
 }
 
 .main-footer .footer-container {
@@ -775,7 +779,6 @@ a {
 	align-items: center;
 	margin-left: 0;
 	padding: 0;
-	position: relative;
     bottom: 524px;
     background-color: rgba(255,255,255, 0.9);
 }
@@ -806,12 +809,13 @@ a {
 
 .footer-copyright {
 	display: flex;
-	margin-left: 237px;
+	margin-left: 230px;
 	margin-top: 16px;
+	align-items: center;
 }
 
-.footer-copyright-item {
-
+.footer-copyright a {
+	margin-left: 8px;
 }
 
 /* catalog */
