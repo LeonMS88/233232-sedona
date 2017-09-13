@@ -382,6 +382,7 @@ a {
 .filter button {
 	font: inherit;
 	color: #ffffff;
+	text-transform: uppercase;
 
 	background-color: transparent;
 	border: 2px solid #ffffff;
@@ -823,28 +824,58 @@ a {
 .filter {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	margin-left: 0;
 	margin-top: 16px;
 	padding: 0;
+	padding-left: 72px; 
+	padding-right: 72px;
 	min-height: 217px;
 }
 
+.filter fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+.filter legend {
+	margin-right: 117px;
+	padding-top: 27px;
+	margin-bottom: 25px;
+}
+
+.filter ul {
+	margin: 0;
+	padding: 0;
+}
+
+.filter-item ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.filter ul li {
+	margin-bottom: 25px;
+}
+
 .filter-item {
-	width: 140px;
-	min-height: 155px;
-	padding-left: 69px; 
+	margin-right: 30px;
+}
+
+.filter-option label {
+	padding-left: 38px;
+	padding-top: 5px;
 }
 
 .filter-wrapper {
-	width: 340px;
-	padding-left: 352px;
+	width: 318px;
+	margin-left: auto;
 }
 
 .price-controls {
 	position: relative;
-	height: 36px;
-	margin-bottom: 20px;
+	height: 33px;
+	margin-bottom: 21px;
+	margin-top: -13px;
 	font-size: 0;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
@@ -876,12 +907,10 @@ a {
 }
 
 .price-controls input {
-	width: 50px;
+	width: 55px;
 	margin: 0;
-
-	color: inherit;
+	text-transform: uppercase;
 	font: inherit;
-
 	background: none;
 	border: none;
 }
@@ -929,7 +958,7 @@ a {
 .filter-button {
 	width: 137px;
     height: 35px;
-    margin-left: 96px;
+    margin-left: 85px;
     margin-bottom: 10px;
 }
 
@@ -964,19 +993,41 @@ a {
 	display: flex;
 	flex-direction: row;
 	padding-left: 466px;
-	margin-top: 32px;
+	margin-top: 28px;
+}
+
+.collating a {
+	display: inline-block;
 }
 
 .collating-item-up {
-	width: 20px;
-	height: 20px;
+	width: 10px;
+	height: 11px;
 	margin-left: 6px;
 }
 
 .collating-item-down {
-	margin-left: 17px;
-	width: 20px;
-	height: 20px;
+	margin-left: 13px;
+	width: 10px;
+	height: 11px;
+}
+
+.stars {
+	width: 90px;
+	margin-left: auto;
+    margin-right: 70px;
+}
+
+.star { 
+	width: 18px; 
+	height: 17px; 
+	margin-top: 40px;
+	display: inline-block; 
+}
+
+.rating {
+	display: inline-block;
+	margin-top: 45px;
 }
 
 .hotel {
@@ -1029,6 +1080,6 @@ a {
 	text-align: center;
 }
 
-.stars {
-	padding-left: 520px;
+.main-footer.main-footer-catalog {
+margin-top: 0;
 }
