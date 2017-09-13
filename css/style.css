@@ -874,7 +874,7 @@ a {
 .price-controls {
 	position: relative;
 	height: 33px;
-	margin-bottom: 21px;
+	margin-bottom: 20px;
 	margin-top: -13px;
 	font-size: 0;
 	border: 2px solid #ffffff;
@@ -895,14 +895,14 @@ a {
 .price-controls label {
 	display: inline-block;
 	font-size: 14px;
-	line-height: 38px;
+	line-height: 30px;
 	vertical-align: top;
 	cursor: pointer;
 }
 
 .price-controls .lower-price,
 .price-controls .high-price {
-	width: 90px;
+	width: 82px;
 	padding-left: 65px;
 }
 
@@ -917,7 +917,7 @@ a {
 
 .range-controls {
 	position: relative;
-	margin-bottom: 32px;
+	margin-bottom: 33px;
 }
 
 .range-controls .scale {
@@ -1014,7 +1014,7 @@ a {
 }
 
 .stars {
-	width: 100px;
+	width: 110px;
 	margin-left: auto;
 	margin-right: 74px;
 	text-align: right;
@@ -1036,13 +1036,16 @@ a {
 	padding-bottom: 3px;
 }
 
+.hotel-first { 
+	border-top: 1px solid #e5e5e5; 
+}
+
 .hotel {
 	display: flex;
 	margin: 0;
 	padding: 0;
 	padding-bottom: 27px;
-	border-top: 1px solid #cccccc;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .hotel-item {
