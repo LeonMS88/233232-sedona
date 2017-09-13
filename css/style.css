@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-  	padding: 0;
+	padding: 0;
 
 	font-size: 14px;
 	line-height: 21px;
@@ -137,7 +137,7 @@ a {
 	text-transform: uppercase;
 
 	background-color: #766357;
-  	border: none;
+	border: none;
 }
 
 .appointment .search:hover {
@@ -249,7 +249,7 @@ a {
 	font-family: inherit;
 
 	background-color: #81b3d2;
-  	border: none;
+	border: none;
 }
 
 .button:hover {
@@ -324,7 +324,7 @@ a {
 }
 
 .filter fieldset {
-  	border: none;
+	border: none;
 }
 
 .filter legend {
@@ -334,7 +334,7 @@ a {
 }
 
 .filter ul {
-  	list-style: none;
+	list-style: none;
 }
 
 .filter-option label {
@@ -367,24 +367,24 @@ a {
 	font: inherit;
 	color: #ffffff;
 
-  	background-color: transparent;
-  	border: 2px solid #ffffff;
+	background-color: transparent;
+	border: 2px solid #ffffff;
 }
 
 .filter-price input:hover {
 	font: inherit;
 	color: #000000;
 
-  	background-color: #ffffff;
-  	border: 2px solid #ffffff;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
 }
 
 .filter button {
 	font: inherit;
 	color: #ffffff;
 
-  	background-color: transparent;
-  	border: 2px solid #ffffff;
+	background-color: transparent;
+	border: 2px solid #ffffff;
 }
 
 .filter button:hover {
@@ -582,7 +582,7 @@ a {
 .description {
 	padding-left: 380px;
 	padding-right: 380px;
- 	padding-top: 566px;
+	padding-top: 566px;
 }
 
 .reasons {
@@ -592,13 +592,13 @@ a {
 }
 
 .differences {
- 	display: flex;
- 	margin-top: 52px;
+	display: flex;
+	margin-top: 52px;
 }
 
 .differences div {
- 	width: 400px;
- 	padding-top: 30px;
+	width: 400px;
+	padding-top: 30px;
 }
 
 .differences p {
@@ -614,8 +614,8 @@ a {
 }
 
 .features-list li {
- 	width: 400px;
- 	padding-top: 58px;
+	width: 400px;
+	padding-top: 58px;
 }
 
 .features-list h2 {
@@ -779,32 +779,32 @@ a {
 	align-items: center;
 	margin-left: 0;
 	padding: 0;
-    bottom: 524px;
-    background-color: rgba(255,255,255, 0.9);
+	bottom: 524px;
+	background-color: rgba(255,255,255, 0.9);
 }
 
 .hashtag {
 	width: 135px;
-  	margin: 0;
-  	margin-left: 132px;
-  	margin-right: 255px;
+	margin: 0;
+	margin-left: 132px;
+	margin-right: 255px;
 }
 
 .footer-social ul {
-  	display: flex;
-  	width: 151px;
-  	flex-wrap: wrap;
-  	justify-content: space-between;
-  	margin: 0 auto;
-  	padding: 0;
+	display: flex;
+	width: 151px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .social-button {
 	width: 46px;
-  	height: 47px;
+	height: 47px;
 	display: flex;
 	align-items: center;
-  	justify-content: center;
+	justify-content: center;
 }
 
 .footer-copyright {
@@ -825,30 +825,112 @@ a {
 	flex-direction: row;
 	align-items: center;
 	margin-left: 0;
+	margin-top: 16px;
 	padding: 0;
-	height: 217px;
+	min-height: 217px;
 }
 
 .filter-item {
 	width: 140px;
-	height: 155px;
-	padding-left: 73px; 
+	min-height: 155px;
+	padding-left: 69px; 
 }
 
 .filter-wrapper {
-	width: 318px;
-	height: 153px;
-	padding-left: 345px;
+	width: 340px;
+	padding-left: 352px;
 }
 
-.filter-price {
-	width: 318px;
-	height: 96px;
+.price-controls {
+	position: relative;
+	height: 36px;
+	margin-bottom: 20px;
+	font-size: 0;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+}
+
+.price-controls::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2px;
+	height: 22px;
+	background: #ffffff;
+	transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 38px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.price-controls .lower-price,
+.price-controls .high-price {
+	width: 90px;
+	padding-left: 65px;
+}
+
+.price-controls input {
+	width: 50px;
+	margin: 0;
+
+	color: inherit;
+	font: inherit;
+
+	background: none;
+	border: none;
+}
+
+.range-controls {
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.range-controls .scale {
+	height: 2px;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+	width: 80%;
+	height: 2px;
+	background: #ffffff;
+}
+
+.range-toggle {
+	position: absolute;
+	top: -9px;
+	width: 4px;
+	height: 4px;
+	background: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+	cursor: pointer;
+}
+
+.range-toggle:hover {
+	background: #1c4f80;
+}
+
+.range-toggle-min {
+	left: 0;
+}
+
+.range-toggle-max {
+	left: 80%;
 }
 
 .filter-button {
 	width: 137px;
-	height: 36px;
+    height: 35px;
+    margin-left: 96px;
+    margin-bottom: 10px;
 }
 
 .main-found {
@@ -857,15 +939,21 @@ a {
 	align-items: center;
 }
 
+.main-found span {
+	margin-top: 12px;
+}
+
 .found {
 	padding-left: 73px;
-	padding-right: 50px;
+	padding-right: 46px;
+	padding-top: 10px;
 }
 
 .sorting {
 	display: flex;
 	flex-direction: row;
-	padding-left: 50px;
+	padding-left: 40px;
+	padding-top: 11px;
 }
 
 .sorting li {
@@ -875,23 +963,70 @@ a {
 .collating {
 	display: flex;
 	flex-direction: row;
-	padding-left: 505px;
+	padding-left: 466px;
+	margin-top: 32px;
+}
+
+.collating-item-up {
+	width: 20px;
+	height: 20px;
+	margin-left: 6px;
+}
+
+.collating-item-down {
+	margin-left: 17px;
+	width: 20px;
+	height: 20px;
 }
 
 .hotel {
 	display: flex;
-	align-items: center;
+	margin: 0;
+	padding: 0;
 }
 
 .hotel-item {
-	padding-left: 73px;
+	padding-left: 72px;
+	padding-top: 40px;
 }
 
 .hotel-wrapper {
+	display: flex;
+	flex-wrap: wrap;
 	width: 258px;
 	height: 90px;
 	padding-left: 30px;
-	margin-bottom: 32px;
+	margin-top: 36px;
+}
+
+.hotel-wrapper h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.apartments-wrapper {
+	display: flex;
+	margin-top: 5px;
+}
+
+.apartments{
+	margin-right: 38px;
+}
+
+.detailet-wrapper {
+	display: flex;
+	margin-top: 15px;
+}
+
+.detailet {
+	width: 109px;
+	margin-right: 7px;
+	text-align: center;
+}
+
+.book {
+	width: 142px;
+	text-align: center;
 }
 
 .stars {

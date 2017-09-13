@@ -63,17 +63,23 @@
 						<legend>
 						Стоимость в сутки (Р):
 						</legend>
-						<input type="text" name="lower-price" id="lower-price" value="от 0">
-						<label for="lower-price"></label>
-						<input type="text" name="high-price" id="high-price" value="до 3000">
-						<label for="high-price"></label>
-						<input type="range" name="price" min="1" max="3000" step="1">
+						<div class="price-controls">
+							<label class="lower-price" for="lower-price"><input type="text" name="lower-price" id="lower-price" value="от 0"></label>	
+							<label class="high-price" for="high-price"><input type="text" name="high-price" id="high-price" value="до 3000"></label>
+						</div>
+						<div class="range-controls">
+							<div class="scale">
+								<div class="bar"></div>
+							</div>
+							<div class="range-toggle range-toggle-min"></div>
+							<div class="range-toggle range-toggle-max"></div>
+						</div>
 					</fieldset>
 					<button class="filter-button" type="submit">Показать</button>
 				</div>   
 			</form> 
 			<div class="main-found">
-				<p class="found">Найдено:3</p>
+				<p class="found">Найдено: 3</p>
 				<span>Сортировка:</span>
 				<ul class="sorting">
 					<li class="sorting-current">
@@ -88,10 +94,10 @@
 				</ul>
 				<ul class="collating">
 					<li>
-						<a class="collating-item-up" href="#">&#62;</a>
+						<a class="collating-item-up" href="#"><span class="visually-hidden"> < </span></a>
 					</li>
 					<li>
-						<a class="collating-item-down" href="#">&#60;</a>
+						<a class="collating-item-down" href="#"><span class="visually-hidden"> > </span></a>
 					</li>
 				</ul>
 			</div> 
@@ -101,10 +107,14 @@
 					<h2>
 						<a href="#">Amara resort &#38; spa</a>
 					</h2>
-					<span class="apartments">Гостиница</span>
-					<span class="price">От 3500 р.</span>
-					<a class="detailet" href="#">Подробнее</a>
-					<a class="book" href="#">Забронировать</a>
+					<div class="apartments-wrapper">
+						<span class="apartments">Гостиница</span>
+						<span class="price">От 4000 р.</span>
+					</div>
+					<div class="detailet-wrapper">
+						<a class="detailet" href="#">Подробнее</a>
+						<a class="book" href="#">Забронировать</a>
+					</div>
 				</div>
 				<div class="stars">
 					<span class="star"></span>
@@ -120,8 +130,10 @@
 					<h2>
 						<a href="#">Desert quail inn</a> 
 					</h2>
-					<span class="apartments">Мотель</span>
-					<span class="price">От 2000 р.</span>
+					<div>
+						<span class="apartments">Мотель</span>
+						<span class="price">От 2000 р.</span>
+					</div>
 					<a class="detailet" href="#">Подробнее</a>
 					<a class="book" href="#">Забронировать</a>
 				</div>
@@ -150,7 +162,7 @@
 				</div>
 			</article>
 		</main>
-		<footer class="main-footer wrapper">
+		<footer class="main-footer-catalog wrapper">
 			<div class="footer-container">
 				<p class="hashtag">#VISITSEDONA</p>
 				<div class="footer-social">
