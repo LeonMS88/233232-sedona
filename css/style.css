@@ -604,6 +604,14 @@ a {
 
 .differences p {
 	padding-top: 6px;
+	padding-left: 59px;
+    width: 283px;
+}
+
+.differences-reverse p {
+	padding-top: 6px;
+	padding-left: 49px;
+    width: 302px;
 }
 
 .features-list {
@@ -624,7 +632,9 @@ a {
 }
 
 .features-list p {
-	padding-top: 6px;
+	padding-top: 7px;
+    padding-left: 57px;
+    width: 285px;
 }
 
 .differences-reverse {
