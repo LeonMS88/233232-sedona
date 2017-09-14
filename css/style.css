@@ -18,6 +18,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15)
+	overflow-x: hidden;
 }
 
 .visually-hidden { 
@@ -605,13 +606,13 @@ a {
 .differences p {
 	padding-top: 6px;
 	padding-left: 59px;
-    width: 283px;
+	width: 283px;
 }
 
 .differences-reverse p {
 	padding-top: 6px;
 	padding-left: 49px;
-    width: 302px;
+	width: 302px;
 }
 
 .features-list {
@@ -633,8 +634,8 @@ a {
 
 .features-list p {
 	padding-top: 7px;
-    padding-left: 57px;
-    width: 285px;
+	padding-left: 57px;
+	width: 285px;
 }
 
 .differences-reverse {
@@ -660,10 +661,17 @@ a {
 
 .differences-item p {
 	padding-top: 6px;
+	padding-left: 67px;
+	width: 266px;
 }
 
 .suggestions {
 	margin-top: 96px;
+}
+
+.suggestions p{
+	padding: 0;
+	margin: 0;
 }
 
 .appointment {
@@ -679,7 +687,7 @@ a {
 	font-family: inherit;
 	width: 568px;
 	height: 86px;
-	margin-top: 34px; 
+	margin-top: 46px; 
 }
 .appointment-arrival {
 	margin-right: 24px;
@@ -708,6 +716,7 @@ a {
 	padding-left: 55px; 
 	padding-right: 55px; 
 	padding-top: 23px; 
+	margin-top: 12px;
 	z-index: 1;
 	background-color: #ffffff;
 }
@@ -879,6 +888,8 @@ a {
 .filter-wrapper {
 	width: 318px;
 	margin-left: auto;
+	color: #ffffff;
+  	text-transform: uppercase;
 }
 
 .price-controls {
