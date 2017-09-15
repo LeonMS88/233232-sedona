@@ -560,17 +560,17 @@ a {
 }
 
 .site-navigation li:nth-child(2) {
-	width: 98px;
+	width: 99px;
 	padding-left: 73px;
-	padding-right: 68px;
+	padding-right: 67px;
 	padding-top: 14px; 
 	margin-left: 55px;
 }
 
 .site-navigation li:nth-child(3) {
-	width: 90px;
-	padding-left: 77px;
-	padding-right: 73px;
+	width: 91px;
+	padding-left: 76px;
+	padding-right: 72px;
 	padding-top: 14px; 
 	margin-left: 244px;
 }
@@ -582,12 +582,14 @@ a {
 	padding-top: 14px;
 }
 .description {
+	width: 441px;
 	padding-left: 380px;
 	padding-right: 380px;
 	padding-top: 566px;
 }
 
 .reasons {
+	width: 492px;
 	padding-left: 355px;
 	padding-right: 355px;
 	padding-top: 10px;
@@ -612,7 +614,7 @@ a {
 .differences-reverse p {
 	padding-top: 6px;
 	padding-left: 49px;
-	width: 302px;
+	width: 303px;
 }
 
 .features-list {
@@ -690,11 +692,11 @@ a {
 	margin-top: 46px; 
 }
 .appointment-arrival {
-	margin-right: 24px;
+	margin-right: 23px;
 }
 
 .appointment-departure {
-	margin-right: 21px;
+	margin-right: 20px;
 }
 
 .appointment-grownups {
@@ -713,6 +715,8 @@ a {
 	width: 458px;
 	height: 372px;
 	top: 121px;
+	left: 316px;
+    right: 316px;
 	padding-left: 55px; 
 	padding-right: 55px; 
 	padding-top: 23px; 
