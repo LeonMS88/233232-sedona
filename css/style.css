@@ -21,6 +21,12 @@ body {
 	overflow-x: hidden;
 }
 
+@media (max-width: 1200px) { 
+	body { 
+		overflow-x: auto; 
+	} 
+}
+
 .visually-hidden { 
 	position: absolute; 
 	width: 1px; 
